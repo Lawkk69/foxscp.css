@@ -1,0 +1,133 @@
+@import url(https://raw.githack.com/Lawkk69/foxscp.css/master/2.css);
+
+.contentUnreadText-2vNnZc:hover, .contentUnreadText-2vNnZc {
+  background: linear-gradient(to left, transparent, var(--Background-Colour), var(--Notification-Colour));
+}
+
+.unread-1Dp-OI {
+  content: "";
+  width: calc(100% - 36px - 8px);
+  height: 150%;
+  position: absolute;
+  display: block;
+  left: 53px;
+  top: 1px;
+  background: linear-gradient(to right, transparent, var(--S-Colour), var(--Notification-Colour), var(--S-Colour), transparent);
+  animation: shakeUnread 2s ease-in-out infinite alternate;
+}
+
+.member-roles .member-role {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #dbdde1;
+  border-radius: 3px;
+  color: var(--Popout-Main-Colour);
+}
+
+/* Boops */
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH>.guild:first-child {
+  margin-top: 10px!important;
+}
+
+#friends, #friends .btn, .friends-header, .friends-table, .search-bar, .guildsWrapper-5TJh6A, .channels-wrap, .guild-channels, .account, .links, .messagesWrapper-3lZDfY, .title-wrap, .content, .chat-empty, .message-group-blocked, .private-channels, .guild-header header, .ider-red span {
+  background: transparent !important;
+}
+
+.channel:not(.selected) {
+  transition: background .3s ease-out !important;
+}
+
+.channel:not(.selected):hover {
+  background: transparent !important;
+  transition: background .2s ease-in !important;
+}
+
+.friends-row:hover, .search-result:hover, .btn-friends.selected, .search-result.selected, .channel.selected.private, .channel.channel-text.selected {
+  background: transparent !important;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+  border-color: var(--Main-Colour);
+  border-bottom: 2px solid var(--Main-Colour);
+}
+
+.guild-channels .channel-text.selected {
+  background: var(--Background-Colour) !important;
+}
+
+.guild-channels .channel-text.selected:before, .guild-channels .channel-text.selected:hover:before, .guild-channels .channel-text:hover.channel-muted:before, .guild-channels .channel-text:hover:not(.unread):before, .private-channels .channel.selected:before, .private-channels .channel:hover:before {
+  border-left: 3px solid var(--Main-Colour);
+}
+
+.guild-channels .channel-text:hover {
+  background: var(--Background-Colour) !important;
+}
+
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
+  left: -11px;
+}
+
+.guild-header ul {
+  opacity: 0;
+  transition: transform .5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+}
+
+.guild-header-open ul {
+  opacity: 1;
+}
+
+.invite-btn {
+  background-color: var(--Main-Colour) !important;
+}
+
+.private-channels .channel:hover:before {
+  opacity: .25 !important;
+}
+
+.user-settings-modal button.preview-sound:before {
+  -webkit-filter: hue-rotate(235deg) saturate(400%);
+  filter: hue-rotate(235deg) saturate(400%);
+}
+
+.voice-connection-channel {
+  color: var(--Background-Colour);
+  font-size: 12px;
+}
+
+.inline {
+  background-color: #23232323 !important;
+  border-radius: 5px !important;
+  font-size: 12px;
+  color: var(--Main-Colour) !important;
+  line-height: 22px;
+}
+
+.badge-1GsMF2 {
+  background-color: var(--Main-Colour);
+  border: 1px solid var(--Background-Colour);
+  color: var(--Background-Colour);
+  bottom: -8px;
+  right: 10px;
+}
+
+.channel.channel-text.unread a {
+  background: transparent !important;
+}
+
+.markup-2BOw-j {
+  color: #ffffff;
+  font-size: var(--Chat-Font-Size)!important;
+}
+
+.member.member-status.member-status-offline:hover {
+  background-color: var(--S-Colour) !important;
+}
+
+.member.member-status.member-status-online:hover {
+  background-color: var(--S-Colour) !important;
+}
+
+.notice {
+  background-color: #a1a1a1;
+  color: var(--Background-Colour);
+}
