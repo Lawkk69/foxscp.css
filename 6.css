@@ -23,6 +23,10 @@
   color: var(--Popout-Main-Colour);
 }
 
+.itemDefault-3NDwnY:not(.role-3wi9Tf), .itemBrand-mC9YR4:not(.role-3wi9Tf), #bd-settings-sidebar .ui-tab-bar-item:not(.role-3wi9Tf) {
+  color: white;
+}
+
 /* Boops */
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH>.guild:first-child {
