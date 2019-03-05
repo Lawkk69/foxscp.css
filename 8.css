@@ -16,6 +16,13 @@
   animation: shakeUnread 2s ease-in-out infinite alternate;
 }
 
+/* Add Button */
+.theme-dark .guildsAdd-21_IdK {
+    background: rgba(0, 0, 0, 0.50);
+    border-color: transparent;
+    color: white;
+}
+
 .member-roles .member-role {
   background-color: rgba(255, 255, 255, 0);
   border: 1px solid #dbdde1;
