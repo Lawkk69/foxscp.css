@@ -1,3 +1,5 @@
+@import url(https://raw.githubusercontent.com/Lawkk69/foxscp.css/master/2%2C2.css)
+
 body:before {
   content: "Currently On" var(--Update-Text);
   background: var(--Background-Colour);
