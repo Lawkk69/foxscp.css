@@ -1,5 +1,6 @@
 body:before {
   content: "Currently On" var(--Update-Text);
+  background: var(--Background-Colour);
   border: 1px solid var(--Main-Colour);
   left: 50%;
   border-radius: 5px;
